@@ -21,7 +21,7 @@ const Home = () => {
  
   return (
     <div className='home'>
-    <MovieList movies = {movies} title = "Movies Blog" handleDelete={handleDelete}/>
+    {movies && <MovieList movies = {movies} title = "Movies Blog" handleDelete={handleDelete}/>}
      
         
     
